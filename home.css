@@ -1,0 +1,46 @@
+.page
+{
+box-shadow: 15px 0px 10px -4px rgba(0, 0, 0, 0.15),-15px 0px 10px -4px rgba(0, 0, 0, 0.15);
+min-height:100vh;
+min-width:90vw;
+max-width:90vw;
+}
+.homepic
+{
+min-height:100vh;
+max-height:100vh;
+max-width:90vw;
+min-width:90vw;
+background:url('home.jpg');
+background-size:cover;
+}
+.layer {
+background-color: rgba(0, 0, 0, 0.6);
+position: absolute;
+top: 0;
+min-height: 100vh;
+max-height:100vh;
+width:90vw;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+p {
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+.text-ani {
+  animation: animated-text 9s steps(30,end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0vw;}
+  to{width: 90vw;}
+}
